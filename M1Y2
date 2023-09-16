@@ -1,0 +1,8 @@
+lenght = int(input('длина пароля'))
+
+stroka = ''
+
+for i in range(lenght):
+    stroka += random.choice(elements)
+
+print(stroka)
